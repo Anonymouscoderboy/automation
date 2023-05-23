@@ -25,7 +25,7 @@ def start(update: Update, context: CallbackContext):
 # Help command handler
 def help_command(update: Update, context: CallbackContext):
     # Create keyboard with two buttons
-    keyboard = [['Owner ID (@decent_op)', 'Support Group (@ppkd)']]
+    keyboard = [['Owner ID (@decent_op)', 'Support Group (@pglpnti_ki_duniya)']]
     reply_markup = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True)
 
     update.message.reply_text(
@@ -52,7 +52,7 @@ def handle_message(update: Update, context: CallbackContext):
 
 def main():
     # Create the Telegram Updater and pass in your bot token
-    updater = Updater("YOUR_BOT_TOKEN")
+    updater = Updater("5058249365:AAERn1bZNpZb-LkJWSJCiKw55XIe6HXc3-s")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
